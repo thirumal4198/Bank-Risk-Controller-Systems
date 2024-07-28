@@ -34,15 +34,14 @@ bash
 Copy code
 streamlit run project.py
 Project Structure
-bash
-Copy code
-.
-├── cleaned_data.csv              # The cleaned dataset used for model training and EDA
-├── project.py                    # Main script for the Streamlit application
-├── DecisionTreeClassifier_model.pkl  # Trained Decision Tree model saved as a pickle file
-├── scaler.pkl                    # Trained scaler object saved as a pickle file
-├── README.md                     # This README file
-└── requirements.txt              # List of required packages
+
+    .
+    ├── cleaned_data.csv              # The cleaned dataset used for model training and EDA
+    ├── project.py                    # Main script for the Streamlit application
+    ├── DecisionTreeClassifier_model.pkl  # Trained Decision Tree model saved as a pickle file
+    ├── scaler.pkl                    # Trained scaler object saved as a pickle file
+    ├── README.md                     # This README file
+    └── requirements.txt              # List of required packages
 Streamlit Application
 The application has three main sections accessible via the sidebar:
 
